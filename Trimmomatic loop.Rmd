@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r}
+#loop for running Trimmomatic with Bradseq adapter
+#!/bin/bash
+
+#sample=`cat sample_list_spring_2016`
+
+# echo $sample
+# 
+# for i in $sample
+#         do
+#         echo $i
+#         outfile=$i\_trimmed2.fastq
+#         java -jar /Network/Servers/avalanche.plb.ucdavis.edu/Volumes/Mammoth/Users/lpabbisetty/BioinformaticsPackages/Trimmomatic-0.36/trimmomatic-0.36.jar SE $i $outfile ILLUMINACLIP:Bradseq_adapter.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36
+# done
+
+```
+
